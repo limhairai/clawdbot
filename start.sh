@@ -3,6 +3,10 @@ set -e
 
 echo "🦞 Starting ClawdBot on Render..."
 
+# Install OpenClaw CLI globally
+echo "📦 Installing OpenClaw CLI..."
+npm install -g openclaw@latest
+
 # Create config directory
 mkdir -p ~/.openclaw/agents/main/agent
 
@@ -50,4 +54,4 @@ echo "✅ Configuration created"
 echo "🚀 Starting OpenClaw gateway..."
 
 # Start the gateway
-npx openclaw gateway start --allow-unconfigured
+openclaw gateway start --allow-unconfigured
