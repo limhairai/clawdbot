@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: clawdbot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: bash start.sh
+    envVars:
+      - key: ZAI_API_KEY
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false

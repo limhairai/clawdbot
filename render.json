@@ -1,0 +1,16 @@
+{
+  "name": "ClawdBot",
+  "description": "Personal AI Assistant via Telegram",
+  "keywords": ["telegram", "bot", "ai", "openclaw"],
+  "repository": "https://github.com/YOUR_USERNAME/clawdbot",
+  "env": {
+    "ZAI_API_KEY": {
+      "description": "Z.AI API Key",
+      "required": true
+    },
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram Bot Token from BotFather",
+      "required": true
+    }
+  }
+}

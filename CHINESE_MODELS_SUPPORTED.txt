@@ -1,0 +1,128 @@
+✅ CHINESE AI MODELS SUPPORT CONFIRMED! ✅
+
+═══════════════════════════════════════════════════════════
+
+🇨🇳 YES! OpenClaw Natively Supports Chinese AI Models
+
+Great news - you can absolutely use Chinese AI models!
+OpenClaw has built-in, first-class support for them.
+
+═══════════════════════════════════════════════════════════
+
+🌟 TOP RECOMMENDATION: Moonshot AI (Kimi)
+
+Why Moonshot/Kimi?
+  ✓ Seamlessly integrated with OpenClaw
+  ✓ Excellent Chinese language support
+  ✓ Fast and accurate (K2.5 latest model)
+  ✓ Large context window (256,000 tokens!)
+  ✓ Easy setup (3 steps)
+  ✓ Great for conversations
+
+Models available:
+  • kimi-k2.5 (Recommended - fastest)
+  • kimi-k2-turbo-preview (Optimized for speed)
+  • kimi-k2-thinking (Better reasoning)
+
+Get API Key: https://platform.moonshot.ai/
+
+═══════════════════════════════════════════════════════════
+
+🔧 ALSO AVAILABLE:
+
+1. Z.AI (GLM) - Zhipu's Chinese Models
+   - URL: https://open.bigmodel.cn/
+   - Model: glm-4.7
+   - Great for: Reasoning tasks
+
+2. Together AI - Multiple Models
+   - URL: https://www.together.ai/
+   - Includes: Qwen, DeepSeek, Llama
+   - Great for: Flexibility & options
+
+═══════════════════════════════════════════════════════════
+
+🚀 QUICK SETUP (3 Steps)
+
+1️⃣ Get Moonshot API Key
+   → Go to: https://platform.moonshot.ai/
+   → Sign up → Generate key → Copy
+
+2️⃣ Run Onboarding
+   export PATH="$HOME/.npm-global/bin:$PATH"
+   openclaw onboard --install-daemon
+
+3️⃣ Select Moonshot When Prompted
+   When asked for AI provider:
+   • Look for "Moonshot" in the list
+   • Or select "Custom" → enter "moonshot"
+   • Paste your API key
+   • Done! ✅
+
+═══════════════════════════════════════════════════════════
+
+📝 YOUR NEW SETUP GUIDES:
+
+CHINESE_MODELS_QUICK_START.md
+  → Start here! TL;DR version
+
+CHINESE_MODELS_GUIDE.md
+  → Complete guide with all options
+  → Configuration examples
+  → Troubleshooting
+
+TELEGRAM_SETUP_CHECKLIST.md
+  → Updated with Chinese model options
+
+═══════════════════════════════════════════════════════════
+
+💡 TEST YOUR MODEL
+
+After setup:
+
+   openclaw agent --message "你好，你好吗？"
+   # (Hello, how are you?)
+
+Or in Telegram:
+   Send any Chinese message to your bot!
+
+═══════════════════════════════════════════════════════════
+
+📊 QUICK COMPARISON
+
+| Feature | Moonshot | Z.AI | Together |
+|---------|----------|------|----------|
+| Chinese support | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+| Setup ease | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+| Context size | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Integration | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+
+WINNER FOR CHINESE: Moonshot/Kimi ✅
+
+═══════════════════════════════════════════════════════════
+
+🎯 NEXT STEPS
+
+1. Get Moonshot API key (5 min)
+   https://platform.moonshot.ai/
+
+2. Run onboarding with Chinese model
+   openclaw onboard --install-daemon
+
+3. Start chatting in Chinese on Telegram! 🤖
+
+═══════════════════════════════════════════════════════════
+
+📚 FULL DOCUMENTATION
+
+For complete configuration, manual setup, and all options:
+→ See: CHINESE_MODELS_GUIDE.md
+
+═══════════════════════════════════════════════════════════
+
+Questions? Check:
+  • CHINESE_MODELS_QUICK_START.md (TL;DR)
+  • CHINESE_MODELS_GUIDE.md (Full guide)
+  • TELEGRAM_SETUP_CHECKLIST.md (Configuration)
+
+好运! (Good luck!) 🚀
